@@ -5,6 +5,7 @@ specifiers:
   '@types/node': 18.11.18
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
+  bootstrap: ^5.2.3
   eslint: 8.32.0
   eslint-config-next: 13.1.4
   next: 13.1.4
@@ -17,6 +18,7 @@ dependencies:
   '@types/node': 18.11.18
   '@types/react': 18.0.27
   '@types/react-dom': 18.0.10
+  bootstrap: 5.2.3
   eslint: 8.32.0
   eslint-config-next: 13.1.4_7uibuqfxkfaozanbtbziikiqje
   next: 13.1.4_biqbaboplfbrettd7655fr4n2y
@@ -449,6 +451,12 @@ packages:
 
   /balanced-match/1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+    dev: false
+
+  /bootstrap/5.2.3:
+    resolution: {integrity: sha512-cEKPM+fwb3cT8NzQZYEu4HilJ3anCrWqh3CHAok1p9jXqMPsPTBhU25fBckEJHJ/p+tTxTFTsFQGM+gaHpi3QQ==}
+    peerDependencies:
+      '@popperjs/core': ^2.11.6
     dev: false
 
   /brace-expansion/1.1.11:
